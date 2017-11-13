@@ -55,6 +55,15 @@
     </PreferenceCategory>-->
 
     <!-- PIE
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="pixel_nav_animation"
+            android:icon="@drawable/ic_google_circles"
+            android:title="@string/pixel_navbar_anim_title"
+            android:summary="@string/pixel_navbar_anim_summary"
+            android:dependency="navbar_visibility"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
     <Preference
         android:key="pie_settings"
         android:icon="@drawable/ic_pie"
@@ -62,7 +71,7 @@
         android:summary="@string/pie_settings_summary"
         android:fragment="com.crdroid.settings.fragments.navbar.PieSettings" /> -->
 
-    <!--<PreferenceCategory
+        <PreferenceCategory
         android:key="category_navbar_interface"
         android:title="@string/navbar_interface_title" >
 
@@ -119,35 +128,34 @@
             android:max="135"
             settings:min="65"
             settings:units="%" />
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
-    <!--<PreferenceCategory
-        android:key="category_navbar_general"
-        android:title="@string/navbar_general_title" >
+    <PreferenceCategory
+            android:key="category_navbar_general"
+            android:title="@string/navbar_general_title" >
 
-        <SwitchPreference
+    <SwitchPreference
             android:key="navbar_dynamic"
             android:icon="@drawable/ic_color_bucket"
             android:title="@string/navbar_dynamic_title"
             android:summary="@string/navbar_dynamic_summary"
             android:defaultValue="false"/>
 
-        <PreferenceScreen
+    <PreferenceScreen
             android:key="pulse_settings"
             android:icon="@drawable/ic_pulse"
             android:title="@string/pulse_settings"
             android:summary="@string/pulse_settings_summary"
             android:fragment="com.crdroid.settings.fragments.navbar.Pulse" />
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
     <PreferenceScreen
-        android:title=""
-        android:selectable="false"
-        settings:allowDividerAbove="false" />
+            android:title=""
+            android:selectable="false"
+            settings:allowDividerAbove="false" />
 
     <PreferenceScreen
-        android:title=""
-        android:selectable="false"
-        settings:allowDividerAbove="false" />
-
+            android:title=""
+            android:selectable="false"
+            settings:allowDividerAbove="false" />
 </PreferenceScreen>

@@ -41,6 +41,7 @@ import com.crdroid.settings.fragments.LockScreen;
 import com.crdroid.settings.fragments.Miscellaneous;
 import com.crdroid.settings.fragments.Navigation;
 import com.crdroid.settings.fragments.Notifications;
+import com.crdroid.settings.fragments.NavBar;
 import com.crdroid.settings.fragments.QuickSettings;
 import com.crdroid.settings.fragments.Sound;
 import com.crdroid.settings.fragments.StatusBar;
@@ -124,6 +125,8 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
 */
                  Buttons.reset(mContext);
                  LockScreen.reset(mContext);
+                 NavBar.reset(mContext);
+                 Display.reset(mContext);
                  Miscellaneous.reset(mContext);
                  Navigation.reset(mContext);
                  Notifications.reset(mContext);
@@ -172,6 +175,10 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             frags[7] = new Sound();
             frags[8] = new Miscellaneous();
             frags[9] = new About();
+            frags[10] = new NavBar();
+            frags[11] = new Display();
+            frags[12] = new Miscellaneous();
+            frags[13] = new About();
         }
 
         @Override
@@ -204,6 +211,7 @@ public class crDroidSettingsLayout extends SettingsPreferenceFragment {
             getString(R.string.ui_title),
             getString(R.string.notifications_title),
             getString(R.string.sound_title),
+            getString(R.string.display_title),
             getString(R.string.misc_title),
             getString(R.string.about_crdroid)
         };
