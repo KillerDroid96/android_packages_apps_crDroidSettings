@@ -1660,6 +1660,7 @@ Sadece yarı şeffaf bildirimler etkin.</string>
   <!-- Face Auto Unlock -->
   <string name="face_auto_unlock_title">Otomatik kilit açma</string>
   <string name="face_auto_unlock_summary">Yüz kilidini açtıktan sonra kilit ekranını otomatik kapat</string>
+  <string name="face_auto_unlock_not_available">Suitable face unlock package not available</string>
   <!-- Battery image -->
   <string name="battery_image_title">Pil görüntüsü</string>
   <string name="battery_image_summary">Pil görüntüsünü göster</string>
