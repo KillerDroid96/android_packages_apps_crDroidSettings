@@ -1658,6 +1658,7 @@
   <!-- Face Auto Unlock -->
   <string name="face_auto_unlock_title">Auto deblocare fata</string>
   <string name="face_auto_unlock_summary">Inlaturare automata ecran blocare la recunoastere fata cunoscuta</string>
+  <string name="face_auto_unlock_not_available">Suitable face unlock package not available</string>
   <!-- Battery image -->
   <string name="battery_image_title">Imagine baterie</string>
   <string name="battery_image_summary">Afisare imagine baterie</string>
