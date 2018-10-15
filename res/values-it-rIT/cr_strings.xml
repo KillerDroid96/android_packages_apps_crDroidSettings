@@ -1658,6 +1658,7 @@
   <!-- Face Auto Unlock -->
   <string name="face_auto_unlock_title">Sblocco automatico con viso</string>
   <string name="face_auto_unlock_summary">Sblocca automaticamente il blocco schermo dopo aver riconosciuto il volto</string>
+  <string name="face_auto_unlock_not_available">Suitable face unlock package not available</string>
   <!-- Battery image -->
   <string name="battery_image_title">Icona della batteria</string>
   <string name="battery_image_summary">Visualizza l\'icona della batteria</string>
