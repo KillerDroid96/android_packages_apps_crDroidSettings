@@ -1658,6 +1658,7 @@
   <!-- Face Auto Unlock -->
   <string name="face_auto_unlock_title">Автоматичне розблокування обличчям</string>
   <string name="face_auto_unlock_summary">Звільнити блокування автоматично після визнання довіреної особи</string>
+  <string name="face_auto_unlock_not_available">Suitable face unlock package not available</string>
   <!-- Battery image -->
   <string name="battery_image_title">Зображення акумулятора</string>
   <string name="battery_image_summary">Відображати індикатор заряду</string>
