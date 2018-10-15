@@ -1659,6 +1659,7 @@ https://plus.google.com/communities/118297646046960923906</string>
   <!-- Face Auto Unlock -->
   <string name="face_auto_unlock_title">Déverrouillage automatique par reconnaissance faciale</string>
   <string name="face_auto_unlock_summary">Rejeter l\'écran de verrouillage après reconnaissance de visage</string>
+  <string name="face_auto_unlock_not_available">Suitable face unlock package not available</string>
   <!-- Battery image -->
   <string name="battery_image_title">Icône de batterie</string>
   <string name="battery_image_summary">Afficher les niveaux de batterie</string>
