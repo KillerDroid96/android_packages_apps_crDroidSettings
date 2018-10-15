@@ -1658,6 +1658,7 @@
   <!-- Face Auto Unlock -->
   <string name="face_auto_unlock_title">Entsperren per Gesichtserkennung</string>
   <string name="face_auto_unlock_summary">Bildschirmsperre deaktivieren, nachdem ein vertrauenswürdiges Gesicht erkannt wurde</string>
+  <string name="face_auto_unlock_not_available">Suitable face unlock package not available</string>
   <!-- Battery image -->
   <string name="battery_image_title">Akkusymbol</string>
   <string name="battery_image_summary">Akkusymbol anzeigen</string>
