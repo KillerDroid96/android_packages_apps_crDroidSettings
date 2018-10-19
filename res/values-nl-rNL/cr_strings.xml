@@ -34,7 +34,7 @@
   <string name="display_title">Beeld</string>
   <string name="ui_title">Gebruikers Interface</string>
   <!-- Power Menu -->
-  <string name="powermenu_title">Power Menu</string>
+  <string name="powermenu_title">aan/uit-knopmenu</string>
   <string name="powermenu_summary">Power Menu Opties</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Kleuren</string>
@@ -1658,6 +1658,7 @@
   <!-- Face Auto Unlock -->
   <string name="face_auto_unlock_title">Gezicht automatisch ontgrendelen</string>
   <string name="face_auto_unlock_summary">Vergrendelscherm overslaan na vertrouwde gezicht herkenning</string>
+  <string name="face_auto_unlock_not_available">Suitable face unlock package not available</string>
   <!-- Battery image -->
   <string name="battery_image_title">Batterij pictogram</string>
   <string name="battery_image_summary">Batterij weergave pictogram</string>
